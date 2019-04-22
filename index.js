@@ -1,6 +1,6 @@
 function takeANumber(joeDeli, name){
   joeDeli.push(name)
-  return `Welcome, ${joeDeli[joeDeli.length-1]}. You are number ${joeDeli.length} in line.`
+  return `Welcome, ${name}. You are number ${joeDeli.length} in line.`
 }
 
 
