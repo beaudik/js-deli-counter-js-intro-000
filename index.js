@@ -1,7 +1,4 @@
-function takeANumber(joeDeli, name){
-  joeDeli.push(name)
-  return `Welcome, ${name}. You are number ${joeDeli.length} in line.`
-}
+
 
 
 function nowServing(joeDeli){
@@ -10,6 +7,15 @@ function nowServing(joeDeli){
   }else{
     return `Currently serving ${joeDeli.shift()}.`
   }
+}
+
+function takeANumber(joeDeli, name){
+  joeDeli.push(name)
+  return `Welcome, ${name}. You are number ${joeDeli.length} in line.`
+}
+function takeANumber( name){
+  joeDeli.push(name)
+  return `Welcome, You are number ${joeDeli.length} in line.`
 }
 
 
